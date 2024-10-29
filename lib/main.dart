@@ -34,25 +34,24 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
                           await player.play(AssetSource('assets/assets_note1.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '1',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.greenAccent, // Button background color
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
+                        backgroundColor: Colors.greenAccent,
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
@@ -64,25 +63,25 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
+
                           await player.setSource(AssetSource('assets_note1.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '2',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.redAccent, // Button background color
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
+                        backgroundColor: Colors.redAccent,
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
@@ -94,25 +93,24 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
                           await player.setSource(AssetSource('assets_note2.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '3',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.blue, // Button background color
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
+                        backgroundColor: Colors.blue,
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
@@ -124,25 +122,24 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
                           await player.setSource(AssetSource('assets_note3.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '4',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.purple, // Button background color
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
+                        backgroundColor: Colors.purple,
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
@@ -154,25 +151,25 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
+
                           await player.setSource(AssetSource('assets_note4.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '5',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.grey, // Button background color
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
+                        backgroundColor: Colors.grey,
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
@@ -184,25 +181,25 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
+
                           await player.setSource(AssetSource('assets_note5.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '6',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.blue, // Button background color
+                        backgroundColor: Colors.blue,
                         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
@@ -214,25 +211,25 @@ class MyApp extends StatelessWidget {
                       onPressed: ()  async{
                         final player = AudioPlayer();
                         try {
-                          // Ensure that you set the correct source path
+
                           await player.setSource(AssetSource('assets_note7.wav'));
-                          await  player.resume(); // Use resume() to start playback
+                          await  player.resume();
                         } catch (e) {
-                          print('Error playing audio: $e'); // Log any errors
+                          print('Error playing audio: $e');
                         }
                       },
                       child: Text(
                         '7',
                         style: TextStyle(
-                          color: Colors.white, // Text color
-                          fontSize: 20, // Text size
+                          color: Colors.white,
+                          fontSize: 20,
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Colors.black, // Button background color
-                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Padding
+                        backgroundColor: Colors.black,
+                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10), // Rounded corners
+                          borderRadius: BorderRadius.circular(10),
                         ),
                       ),
                     ),
